@@ -11,7 +11,7 @@ const assert = require('assert')
 //             Implementation:            //
 //========================================//
 // f :: (a -> b)
-const f = x => x+1
+const f = x => x + 1
 // g :: (b - c)
 const g = x => x.toString()
 // h :: (c -> d)

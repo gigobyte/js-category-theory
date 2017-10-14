@@ -22,7 +22,7 @@ const kleisliCompose = f => g => x => {
 // returnM :: a -> Writer a 
 const returnM = x => [x, '']
 // upCase :: String -> Writer String 
-const upCase = s => [[s].map(x => x.toUpperCase()).join(), 'upCase ']
+const upCase = s => [s.toUpperCase(), 'upCase ']
 // toWords :: String -> Writer [String] 
 const toWords = s => [s.split(' '), 'toWords ']
 // process :: String -> Writer [String]
